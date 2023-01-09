@@ -19,7 +19,8 @@ html {
 }
 
 .formulaire {
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   font-size: 1.5rem;
 }
 .formulaire .element {
@@ -34,6 +35,19 @@ html {
   border-radius: 1rem;
   width: 26rem;
   padding: 1rem;
+}
+
+.bandeau {
+  background-color: #5cba47;
+  width: 100;
+}
+.bandeau h1 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Calistoga", cursive;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

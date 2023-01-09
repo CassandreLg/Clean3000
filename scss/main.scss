@@ -21,7 +21,8 @@ html{
 }
 
 .formulaire{
-    padding-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     font-size: 1.5rem;
 
 .element{
@@ -39,4 +40,19 @@ html{
     padding: 1rem;
 }
 } 
+}
+
+.bandeau{
+
+    background-color: #5cba47;
+    width: 100;
+
+    h1{
+        color:white;
+        font-size: 2rem;
+        font-family: 'Calistoga', cursive;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 }
