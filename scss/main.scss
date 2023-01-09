@@ -67,29 +67,37 @@ html {
 
     }
 
-    .sign{
-        p{
+    .sign {
+        p {
             text-align: center;
         }
-        .area{
+
+        .area {
             padding: 4rem;
             background-color: #e7e7e7;
         }
     }
 }
 
-.btnValider{
-    padding-top: 2rem;
+.bouton {
+
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding-top: 2rem;
 
+    .btn {
+        font-size: 2rem;
+        font-family: 'Calistoga', cursive;
+        color: white;
+        background-color: #5cba47;
+        border: solid 1px #5cba47;
+    }
 
-.validation{
-    background-color: #5cba47;
-    padding: 1rem;
-    font-size: 2rem;
-    font-family: 'Calistoga', cursive;
-    border: none;
-}
+    .btn:hover {
+        font-size: 2rem;
+        font-family: 'Calistoga', cursive;
+        color: white;
+        background-color: #489c35;
+        border: solid 1px #489c35;
+    }
 }

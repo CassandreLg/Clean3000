@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.accueil {
+    background-color: #00c4cc;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        max-width: 50%;
+    }
+
+}
