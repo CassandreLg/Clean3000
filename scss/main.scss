@@ -1,58 +1,79 @@
-*{
+* {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-.accueil{
+.accueil {
     background-image: url('/img/image_accueil.jpg');
     height: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    img{
+    img {
         max-width: 50%;
     }
 
 }
 
-.formulaire{
+.formulaire {
     padding-top: 1rem;
     padding-bottom: 2rem;
     font-size: 1.5rem;
 
-.element{
-    padding-top: 2rem;
-   
-.label{
-    padding-bottom: 1rem;
+    .element {
+        padding-top: 2rem;
+
+        .label {
+            padding-bottom: 1rem;
+        }
+
+        .input {
+            background-color: #e7e7e7;
+            border: none;
+            border-radius: 1rem;
+            width: 26rem;
+            padding: 1rem;
+        }
+    }
 }
 
-.input{
-    background-color: #d3d3d1;
-    border: none;
-    border-radius: 1rem;
-    width: 26rem;
-    padding: 1rem;
-}
-} 
-}
-
-.bandeau{
+.bandeau {
 
     background-color: #5cba47;
     width: 100;
 
-    h1{
-        color:white;
+    h1 {
+        color: white;
         font-size: 2rem;
         font-family: 'Calistoga', cursive;
         text-align: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+}
+
+.signatures {
+    .titre {
+        padding-top: 1rem;
+
+        h1 {
+            text-align: center;
+        }
+
+    }
+
+    .sign{
+        p{
+            text-align: center;
+        }
+        .area{
+            padding: 4rem;
+            background-color: #e7e7e7;
+        }
     }
 }
