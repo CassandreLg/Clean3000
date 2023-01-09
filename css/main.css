@@ -64,4 +64,18 @@ html {
   background-color: #e7e7e7;
 }
 
+.btnValider {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnValider .validation {
+  background-color: #5cba47;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: "Calistoga", cursive;
+  border: none;
+}
+
 /*# sourceMappingURL=main.css.map */
