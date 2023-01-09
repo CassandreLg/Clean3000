@@ -9,6 +9,7 @@ html {
 
 .accueil {
     background-image: url('/img/image_accueil.jpg');
+    background-size: cover;
     height: 15rem;
     display: flex;
     align-items: center;
@@ -54,6 +55,8 @@ html {
         text-align: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
     }
 }
 
@@ -91,6 +94,9 @@ html {
         color: white;
         background-color: #5cba47;
         border: solid 1px #5cba47;
+        text-transform: uppercase;
+        padding : 1rem 6rem 1rem 6rem;
+        letter-spacing: 0.2rem;
     }
 
     .btn:hover {
@@ -99,5 +105,8 @@ html {
         color: white;
         background-color: #489c35;
         border: solid 1px #489c35;
+        text-transform: uppercase;
+        padding : 1rem 6rem 1rem 6rem;
+        letter-spacing: 0.2rem;
     }
 }
