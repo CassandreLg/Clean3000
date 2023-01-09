@@ -1,3 +1,20 @@
+* {
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+.accueil {
+  background-image: url("/img/image_accueil.jpg");
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accueil img {
+  max-width: 50%;
+}
 
 /*# sourceMappingURL=main.css.map */
