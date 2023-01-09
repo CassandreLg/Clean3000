@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html{
@@ -17,4 +18,25 @@ html{
         max-width: 50%;
     }
 
+}
+
+.formulaire{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+
+.element{
+    padding-top: 2rem;
+   
+.label{
+    padding-bottom: 1rem;
+}
+
+.input{
+    background-color: #d3d3d1;
+    border: none;
+    border-radius: 1rem;
+    width: 26rem;
+    padding: 1rem;
+}
+} 
 }
