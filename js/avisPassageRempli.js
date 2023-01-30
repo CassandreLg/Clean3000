@@ -35,11 +35,19 @@ divElementDate.appendChild(pElementDate);
 // OBSERVATIONS
 // ------------
 
+// Variable ds laquelle j'enregistre la valeur du champ input
+let observation = localStorage.getItem("observation");
+
 // Création de mon élément à ajouter :
 let pElementObservation = document.createElement("p");
 
-// Définition de mon élément :
-pElementObservation.textContent = localStorage.getItem('observation');
+
+// Définition de mon élément (si input observation rempli, j'affiche le contenu, sinon "Pas d'observation") :
+if (observation) {
+    pElementObservation.textContent = observation;
+    } else {
+    pElementObservation.textContent = "Pas d'observation";
+    };
 
 // Ajout de mon élément dans le html, dans la div #obs
 let divElementObs = document.querySelector("#obs");

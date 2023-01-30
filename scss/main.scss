@@ -1,3 +1,8 @@
+// Import du fichier partiel :
+@use "variables" as v;
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -38,7 +43,7 @@ html {
         }
 
         .input {
-            background-color: #e7e7e7;
+            background-color: v.$gris-clair;
             border: none;
             border-radius: 1rem;
             width: 26rem;
@@ -49,11 +54,11 @@ html {
 
 .bandeau {
 
-    background-color: #5cba47;
+    background-color: v.$vert-clair;
     width: 100;
 
     h1 {
-        color: white;
+        color: v.$blanc;
         font-size: 2rem;
         font-family: 'Calistoga', cursive;
         text-align: center;
@@ -82,7 +87,7 @@ html {
 
         .area {
             padding: 4rem;
-            background-color: #e7e7e7;
+            background-color: v.$gris-clair;
         }
     }
 }
@@ -97,8 +102,8 @@ html {
         font-size: 2rem;
         font-family: 'Calistoga', cursive;
         color: white;
-        background-color: #5cba47;
-        border: solid 1px #5cba47;
+        background-color: v.$vert-clair;
+        border: solid 1px v.$vert-clair;
         text-transform: uppercase;
         padding : 1rem 6rem 1rem 6rem;
         letter-spacing: 0.2rem;
@@ -108,8 +113,8 @@ html {
         font-size: 2rem;
         font-family: 'Calistoga', cursive;
         color: white;
-        background-color: #489c35;
-        border: solid 1px #489c35;
+        background-color: v.$vert-fonce;
+        border: solid 1px v.$vert-fonce;
         text-transform: uppercase;
         padding : 1rem 6rem 1rem 6rem;
         letter-spacing: 0.2rem;

@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+}
+
+body {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -26,6 +29,7 @@ html {
 }
 .formulaire .element {
   padding-top: 2rem;
+  text-align: center;
 }
 .formulaire .element .label {
   padding-bottom: 1rem;
@@ -61,6 +65,7 @@ html {
 }
 .signatures .sign p {
   text-align: center;
+  font-size: 1.5rem;
 }
 .signatures .sign .area {
   padding: 4rem;

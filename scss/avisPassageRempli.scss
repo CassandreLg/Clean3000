@@ -1,3 +1,8 @@
+// Import du fichier partiel :
+@use "variables" as v;
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +15,7 @@ html {
 // ACCUEIL
 
 .accueil {
-    background-color: #3d3d33;
+    background-color: v.$gris-fonce;
     height: 15rem;
     display: flex;
     align-items: center;
@@ -24,11 +29,11 @@ html {
 
 .bandeau {
 
-    background-color: #5cba47;
+    background-color: v.$vert-clair;
     width: 100;
 
     h1 {
-        color: white;
+        color: v.$blanc;
         font-size: 2rem;
         font-family: 'Calistoga', cursive;
         text-align: center;
@@ -43,26 +48,16 @@ html {
 
 .formulaire{
     text-align: center;
+    padding-top: 5rem;
+    p{
+        font-size: 1.5rem;
+    }
 }
 
-.nomEntreprise{
+.titre{
     font-size: 1.8rem;
     text-transform: uppercase;
-    color: #cacaca;
-    font-weight: bold;
-}
-
-#nomEntrepriseResultat{
-    font-size: 1.5rem;
-    color: black;
-    font-weight: lighter;
-    text-transform: lowercase;
-}
-
-.dateIntervention{
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    color: #cacaca;
+    color: v.$gris-moyen;
     font-weight: bold;
 }
 
@@ -90,8 +85,8 @@ html {
         font-size: 2rem;
         font-family: 'Calistoga', cursive;
         color: white;
-        background-color: #5cba47;
-        border: solid 1px #5cba47;
+        background-color: v.$vert-clair;
+        border: solid 1px v.$vert-clair;
         text-transform: uppercase;
         padding : 1rem 6rem 1rem 6rem;
         letter-spacing: 0.2rem;
@@ -101,8 +96,8 @@ html {
         font-size: 2rem;
         font-family: 'Calistoga', cursive;
         color: white;
-        background-color: #489c35;
-        border: solid 1px #489c35;
+        background-color: v.$vert-fonce;
+        border: solid 1px v.$vert-fonce;
         text-transform: uppercase;
         padding : 1rem 6rem 1rem 6rem;
         letter-spacing: 0.2rem;
