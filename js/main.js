@@ -1,42 +1,35 @@
-const input = document.getElementById('name');
-const resultat  = document.getElementById('resultat');
+// ------------
+// NOM
+// ------------
+
+const inputName = document.getElementById('name');
 
 // Enregistrement de la valeur de l'input dans le local storage à chaque modif de l'input
-input.addEventListener('input', () => {
-    localStorage.setItem('name', input.value);
+inputName.addEventListener('input', () => {
+    localStorage.setItem('nom', inputName.value);
 });
 
-// Enregistrement de la valeur de l'input qui est ds le local storage ds une constante pour essayer de l'afficher ensuite
-const valeurInput = localStorage.getItem('name');
 
+// ------------
+// DATE
+// ------------
 
-let nameClient = document.querySelector("#name").value;
+const inputDate = document.getElementById('date');
 
-
-// Création de mon élément à ajouter :
-let pElement = document.createElement("p");
-
-// Définition de mon élément :
-pElement.id = "nouveauParagraphe";
-pElement.textContent = "wahou un nouveau paragraphe";
-
-// Ajout de mon élément dans le html, dans la div #resultat
-let divElement = document.querySelector("#resultat");
-divElement.appendChild(pElement);
+// Enregistrement de la valeur de l'input dans le local storage à chaque modif de l'input
+inputDate.addEventListener('input', () => {
+    localStorage.setItem('dateintervention', inputDate.value);
+});
 
 
 
+// ------------
+// OBSERVATIONS
+// ------------
 
+const inputObservations = document.getElementById('observations');
 
-// document.querySelectorAll("#presentation p");
-
-// // Création de mon élément à ajouter :
-// let pElement = document.createElement("p");
-
-// // Définition de mon élément :
-// pElement.id = "nouveauParagraphe";
-// pElement.textContent = "Wahou un nouveau paragraphe";
-
-// // Ajout de mon élément dans le html, dans la div #resultat
-// let divElement = document.querySelector("#resultat");
-// divElement.appendChild(pElement);
+// Enregistrement de la valeur de l'input dans le local storage à chaque modif de l'input
+inputObservations.addEventListener('change', () => {
+    localStorage.setItem('observation', inputObservations.value);
+});
