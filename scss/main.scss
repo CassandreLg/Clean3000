@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+}
+
+body{
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,6 +31,7 @@ html {
 
     .element {
         padding-top: 2rem;
+        text-align: center;
 
         .label {
             padding-bottom: 1rem;
@@ -73,6 +77,7 @@ html {
     .sign {
         p {
             text-align: center;
+            font-size: 1.5rem;
         }
 
         .area {
